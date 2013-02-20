@@ -6,10 +6,11 @@
 * show tweet
 
 ##Setup
-  git clone git@github.com:xta/GetTweet.git
-  bundle
-  cd GetTweet
+
+    git clone git@github.com:xta/GotTweet.git
+    bundle
+    cd GotTweet
 setup `/config/config.yml` with Twitter keys
 
-  rake db:migrate
-  rails server
+    rake db:migrate
+    rails server
