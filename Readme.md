@@ -1,14 +1,15 @@
 #Got Tweet?
 
 ##Sample app for:
-* using tweet ID
-* get tweet
+* get tweet by ID
 * store tweet
 * show tweet
 
 ##Setup
-git clone
-bundle
-cd
-setup `/config/config.yml`
-rake db:migrate
+  git clone git@github.com:xta/GetTweet.git
+  bundle
+  cd GetTweet
+setup `/config/config.yml` with Twitter keys
+
+  rake db:migrate
+  rails server
