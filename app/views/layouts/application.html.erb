@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GotTweet</title>
+  <title>Got Tweet?</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<h1><%= link_to 'Got Tweet?', root_path %></h1>
 <% if current_user %>
   Signed in as <%= current_user.name %>!
   <%= link_to "Sign out", signout_path %>

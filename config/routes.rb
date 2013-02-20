@@ -5,6 +5,8 @@ GotTweet::Application.routes.draw do
 
   get 'signout', to: 'sessions#destroy', as: 'signout'
 
+  resources :tweets
+
   root :to => 'tweets#index'
 
 end

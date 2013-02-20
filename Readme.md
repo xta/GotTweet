@@ -10,5 +10,5 @@
 git clone
 bundle
 cd
-setup `/config/initializers/omniauth.rb`
+setup `/config/config.yml`
 rake db:migrate
