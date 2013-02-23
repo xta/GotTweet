@@ -16,3 +16,7 @@ setup `/config/config.yml` with Twitter keys
 
     rake db:migrate
     rails server
+
+##Stack
+Ruby on Rails
+SQLite
