@@ -18,5 +18,5 @@ setup `/config/config.yml` with Twitter keys
     rails server
 
 ##Stack
-Ruby on Rails
-SQLite
+* Ruby on Rails
+* SQLite
